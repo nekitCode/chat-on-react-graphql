@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -e js,graphql server.js"
+  },
+  "dependencies": {
+    "@graphql-yoga/node": "^2.5.0",
+    "graphql": "^16.4.0",
+    "graphql-yoga": "^2.5.0",
+    "nodemon": "^2.0.16"
+  }
+}
